@@ -1,1 +1,35 @@
 /*Use this file to add your styles -there are some cool img in the images path*/
+body{
+  background-color: grey;
+
+}
+
+.container{
+  background-color: #68718c;
+  width: 600px;
+  height: 600px;
+  background-image: url("../images/board.jpg");
+  background-blend-mode: lighten;
+  background-size: contain;
+  color: black;
+  font-style: normal;
+  text-align: center;
+
+}
+
+.selector{
+  background-color: white;
+  height: 400px;
+  width: 400px;
+  position: relative;
+  left: 90px;
+
+}
+
+.button-slider{
+  padding-top: 20px;
+}
+
+.operators{
+  padding-top: 50px;
+}
